@@ -1,0 +1,10 @@
+SITEURL = 'https://vinnich.uk'
+THEME = 'theme'
+AUTHOR = 'Nazar Vinnichuk'
+SITENAME = 'Nazar Vinnichuk'
+PATH = 'content'
+TIMEZONE = 'Europe/Kiev'
+DEFAULT_LANG = 'en'
+DEFAULT_PAGINATION = False
+LOAD_CONTENT_CACHE = False
+RELATIVE_URLS = True
