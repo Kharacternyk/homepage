@@ -30,6 +30,14 @@ a {
     text-decoration: none;
 }
 
+li span::before {
+    content: "\00a0";
+}
+
+li a:hover span::before {
+    content: "↪";
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -46,8 +54,8 @@ li, li a {
 }
 
 img[src^="icons/"] {
-    margin-right: 0.3em;
     width: 1.5em;
+    margin-right: 0.1em;
 }
 
 .vertical-panel {
