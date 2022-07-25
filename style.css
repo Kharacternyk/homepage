@@ -46,6 +46,10 @@ a {
     font-style: italic;
 }
 
+nav {
+    text-align: center;
+}
+
 .homepage-panel li span::before {
     content: "\00a0";
 }
