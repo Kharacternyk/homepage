@@ -16,7 +16,6 @@ body {
     text-align: justify;
     font-family: "IBM Plex Mono", monospace;
     font-style: italic;
-    font-size: 1.5rem;
     margin: 0;
     padding: 1rem;
 }
@@ -77,6 +76,7 @@ a {
 
 .homepage-panel {
     display: flex;
+    font-size: 1.5rem;
 }
 
 .homepage-panel hr {
