@@ -56,7 +56,7 @@ li a {
   align-items: center;
 }
 
-img[src^="icons/"] {
+img[src^="/icons/"] {
   width: 1.5em;
   margin-right: 0.1em;
 }
