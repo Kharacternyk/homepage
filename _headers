@@ -1,0 +1,8 @@
+/*
+    cache-control: max-age=300
+
+/*.woff2
+    cache-control: max-age=604800, immutable
+
+/icons/*
+    cache-control: max-age=604800, immutable
