@@ -21,6 +21,7 @@ body {
 }
 
 h1 {
+  margin: 0;
   text-align: center;
   font-size: 3rem;
   font-weight: normal;
@@ -59,6 +60,10 @@ li a {
 img[src^="/icons/"] {
   width: 1.5em;
   margin-right: 0.1em;
+}
+
+img[src="/cactus.svg"] {
+  height: 5em;
 }
 
 .vertical-panel {
