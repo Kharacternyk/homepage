@@ -34,12 +34,19 @@ body {
   line-height: 1.25;
   margin: 0;
   -webkit-text-size-adjust: none;
+  padding: 24px;
+  box-sizing: border-box;
 }
 
 h1 {
   margin: 0;
   text-align: center;
   font-weight: normal;
+}
+
+section h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
 }
 
 body > img {
@@ -51,12 +58,15 @@ a {
   text-decoration: none;
 }
 
-li span::before {
+summary::before,
+summary::after,
+ul li span::before {
   content: "↪";
   visibility: hidden;
 }
 
-li a:hover span::before {
+summary:hover::before,
+ul li a:hover span::before {
   visibility: visible;
 }
 
@@ -70,18 +80,26 @@ li {
   margin: 8px 0;
 }
 
-li,
-li a {
+ul li,
+ul li a {
   display: flex;
   align-items: center;
 }
 
-li img {
+ul li img {
   margin-right: 4px;
 }
 
-main {
+ol {
+  margin: 0;
+}
+
+section {
   display: flex;
+}
+
+section section {
+  display: initial;
 }
 
 hr {
@@ -92,7 +110,7 @@ hr {
 }
 
 @media (orientation: portrait) {
-  main {
+  section {
     flex-direction: column;
   }
 
@@ -100,4 +118,11 @@ hr {
     height: 4px;
     width: auto;
   }
+}
+
+summary {
+  text-align: center;
+  cursor: pointer;
+  margin: 16px 0;
+  list-style: none;
 }
