@@ -49,10 +49,6 @@ section h1 {
   margin-bottom: 16px;
 }
 
-body > img {
-  height: 128px;
-}
-
 a {
   color: inherit;
   text-decoration: none;
